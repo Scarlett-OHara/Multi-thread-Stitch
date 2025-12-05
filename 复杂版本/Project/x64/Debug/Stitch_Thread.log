@@ -1,0 +1,136 @@
+﻿  Camera_input.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(4,21): error C2039: "filesystem": 不是 "std" 的成员
+D:\DeskTop\file\Stitch_Thread\predefined C++ types (compiler internal)(341): message : 参见“std”的声明
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(4,31): error C2878: “filesystem”: 该名称的命名空间或类不存在
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(53,9): error C2653: “fs”: 不是类或命名空间名称
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(53,13): error C2065: “path”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(53,18): error C2146: 语法错误: 缺少“;”(在标识符“dir”的前面)
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(53,18): error C3861: “dir”: 找不到标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(54,14): error C2653: “fs”: 不是类或命名空间名称
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(54,25): error C2065: “dir”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(54,18): error C3861: “exists”: 找不到标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(55,13): error C2653: “fs”: 不是类或命名空间名称
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(55,36): error C2065: “dir”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(55,17): error C3861: “create_directories”: 找不到标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(58,9): error C2653: “fs”: 不是类或命名空间名称
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(58,13): error C2065: “path”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(58,18): error C2146: 语法错误: 缺少“;”(在标识符“file_path”的前面)
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(58,18): error C2065: “file_path”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(58,30): error C2065: “dir”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(61,32): error C2065: “file_path”: 未声明的标识符
+  Est_exposure.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+D:\DeskTop\file\Stitch_Thread\src\Est_exposure.cpp(143,31): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\DeskTop\file\Stitch_Thread\src\Est_exposure.cpp(144,29): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\DeskTop\file\Stitch_Thread\src\Est_exposure.cpp(186,7): error C3083: “filesystem”:“::”左侧的符号必须是一种类型
+D:\DeskTop\file\Stitch_Thread\src\Est_exposure.cpp(186,19): error C2039: "create_directories": 不是 "std" 的成员
+D:\VisualStudio\2022\Community\VC\Tools\MSVC\14.29.30133\include\fstream(26): message : 参见“std”的声明
+D:\DeskTop\file\Stitch_Thread\src\Est_exposure.cpp(186,37): error C3861: “create_directories”: 找不到标识符
+D:\DeskTop\file\Stitch_Thread\src\Est_exposure.cpp(195,7): error C3083: “filesystem”:“::”左侧的符号必须是一种类型
+D:\DeskTop\file\Stitch_Thread\src\Est_exposure.cpp(195,19): error C2039: "create_directories": 不是 "std" 的成员
+D:\VisualStudio\2022\Community\VC\Tools\MSVC\14.29.30133\include\fstream(26): message : 参见“std”的声明
+D:\DeskTop\file\Stitch_Thread\src\Est_exposure.cpp(195,37): error C3861: “create_directories”: 找不到标识符
+  Est_seam.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+D:\DeskTop\file\Stitch_Thread\src\Est_seam.cpp(33,10): error C3083: “filesystem”:“::”左侧的符号必须是一种类型
+D:\DeskTop\file\Stitch_Thread\src\Est_seam.cpp(33,22): error C2039: "create_directories": 不是 "std" 的成员
+D:\VisualStudio\2022\Community\VC\Tools\MSVC\14.29.30133\include\fstream(26): message : 参见“std”的声明
+D:\DeskTop\file\Stitch_Thread\src\Est_seam.cpp(33,40): error C3861: “create_directories”: 找不到标识符
+D:\DeskTop\file\Stitch_Thread\src\Est_seam.cpp(42,10): error C3083: “filesystem”:“::”左侧的符号必须是一种类型
+D:\DeskTop\file\Stitch_Thread\src\Est_seam.cpp(42,22): error C2039: "create_directories": 不是 "std" 的成员
+D:\VisualStudio\2022\Community\VC\Tools\MSVC\14.29.30133\include\fstream(26): message : 参见“std”的声明
+D:\DeskTop\file\Stitch_Thread\src\Est_seam.cpp(42,40): error C3861: “create_directories”: 找不到标识符
+D:\DeskTop\file\Stitch_Thread\src\Est_seam.cpp(51,10): error C3083: “filesystem”:“::”左侧的符号必须是一种类型
+D:\DeskTop\file\Stitch_Thread\src\Est_seam.cpp(51,22): error C2039: "create_directories": 不是 "std" 的成员
+D:\VisualStudio\2022\Community\VC\Tools\MSVC\14.29.30133\include\fstream(26): message : 参见“std”的声明
+D:\DeskTop\file\Stitch_Thread\src\Est_seam.cpp(51,40): error C3861: “create_directories”: 找不到标识符
+D:\DeskTop\file\Stitch_Thread\src\Est_seam.cpp(60,10): error C3083: “filesystem”:“::”左侧的符号必须是一种类型
+D:\DeskTop\file\Stitch_Thread\src\Est_seam.cpp(60,22): error C2039: "create_directories": 不是 "std" 的成员
+D:\VisualStudio\2022\Community\VC\Tools\MSVC\14.29.30133\include\fstream(26): message : 参见“std”的声明
+D:\DeskTop\file\Stitch_Thread\src\Est_seam.cpp(60,40): error C3861: “create_directories”: 找不到标识符
+  KeyPoint.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(4,21): error C2039: "filesystem": 不是 "std" 的成员
+D:\DeskTop\file\Stitch_Thread\predefined C++ types (compiler internal)(341): message : 参见“std”的声明
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(4,31): error C2878: “filesystem”: 该名称的命名空间或类不存在
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(53,9): error C2653: “fs”: 不是类或命名空间名称
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(53,13): error C2065: “path”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(53,18): error C2146: 语法错误: 缺少“;”(在标识符“dir”的前面)
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(53,18): error C3861: “dir”: 找不到标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(54,14): error C2653: “fs”: 不是类或命名空间名称
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(54,25): error C2065: “dir”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(54,18): error C3861: “exists”: 找不到标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(55,13): error C2653: “fs”: 不是类或命名空间名称
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(55,36): error C2065: “dir”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(55,17): error C3861: “create_directories”: 找不到标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(58,9): error C2653: “fs”: 不是类或命名空间名称
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(58,13): error C2065: “path”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(58,18): error C2146: 语法错误: 缺少“;”(在标识符“file_path”的前面)
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(58,18): error C2065: “file_path”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(58,30): error C2065: “dir”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(61,32): error C2065: “file_path”: 未声明的标识符
+D:\opencv\build\install\include\opencv2\xfeatures2d.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\DeskTop\file\Stitch_Thread\src\KeyPoint.hpp(43,14): warning C4305: “初始化”: 从“double”到“float”截断
+D:\DeskTop\file\Stitch_Thread\src\KeyPoint.cpp(5,21): error C2039: "filesystem": 不是 "std" 的成员
+D:\VisualStudio\2022\Community\VC\Tools\MSVC\14.29.30133\include\condition_variable(30): message : 参见“std”的声明
+D:\DeskTop\file\Stitch_Thread\src\KeyPoint.cpp(5,31): error C2878: “filesystem”: 该名称的命名空间或类不存在
+D:\DeskTop\file\Stitch_Thread\src\KeyPoint.cpp(11,18): warning C4244: “=”: 从“const _Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+D:\DeskTop\file\Stitch_Thread\src\KeyPoint.cpp(42,2): error C2653: “fs”: 不是类或命名空间名称
+D:\DeskTop\file\Stitch_Thread\src\KeyPoint.cpp(42,6): error C2065: “path”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\KeyPoint.cpp(42,11): error C2146: 语法错误: 缺少“;”(在标识符“output_dir”的前面)
+D:\DeskTop\file\Stitch_Thread\src\KeyPoint.cpp(42,11): error C2065: “output_dir”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\KeyPoint.cpp(43,20): error C2065: “output_dir”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\KeyPoint.cpp(155,47): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  main.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(4,21): error C2039: "filesystem": 不是 "std" 的成员
+D:\DeskTop\file\Stitch_Thread\predefined C++ types (compiler internal)(341): message : 参见“std”的声明
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(4,31): error C2878: “filesystem”: 该名称的命名空间或类不存在
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(53,9): error C2653: “fs”: 不是类或命名空间名称
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(53,13): error C2065: “path”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(53,18): error C2146: 语法错误: 缺少“;”(在标识符“dir”的前面)
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(53,18): error C3861: “dir”: 找不到标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(54,14): error C2653: “fs”: 不是类或命名空间名称
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(54,25): error C2065: “dir”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(54,18): error C3861: “exists”: 找不到标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(55,13): error C2653: “fs”: 不是类或命名空间名称
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(55,36): error C2065: “dir”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(55,17): error C3861: “create_directories”: 找不到标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(58,9): error C2653: “fs”: 不是类或命名空间名称
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(58,13): error C2065: “path”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(58,18): error C2146: 语法错误: 缺少“;”(在标识符“file_path”的前面)
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(58,18): error C2065: “file_path”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(58,30): error C2065: “dir”: 未声明的标识符
+D:\DeskTop\file\Stitch_Thread\src\Camera_input.hpp(61,32): error C2065: “file_path”: 未声明的标识符
+D:\opencv\build\install\include\opencv2\xfeatures2d.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\DeskTop\file\Stitch_Thread\src\KeyPoint.hpp(43,14): warning C4305: “初始化”: 从“double”到“float”截断
+D:\DeskTop\file\Stitch_Thread\src\main.cpp(76,25): warning C4244: “=”: 从“int64”转换到“double”，可能丢失数据
+D:\DeskTop\file\Stitch_Thread\src\main.cpp(123,25): warning C4244: “=”: 从“int64”转换到“double”，可能丢失数据
+D:\DeskTop\file\Stitch_Thread\src\main.cpp(160,29): warning C4244: “=”: 从“int64”转换到“double”，可能丢失数据
+D:\DeskTop\file\Stitch_Thread\src\main.cpp(180,29): warning C4244: “=”: 从“int64”转换到“double”，可能丢失数据
+D:\DeskTop\file\Stitch_Thread\src\main.cpp(215,25): warning C4244: “=”: 从“int64”转换到“double”，可能丢失数据
+D:\DeskTop\file\Stitch_Thread\src\main.cpp(364,25): warning C4244: “=”: 从“int64”转换到“double”，可能丢失数据
+D:\DeskTop\file\Stitch_Thread\src\main.cpp(454,25): warning C4244: “=”: 从“int64”转换到“double”，可能丢失数据
+D:\DeskTop\file\Stitch_Thread\src\main.cpp(492,29): warning C4244: “=”: 从“int64”转换到“double”，可能丢失数据
+D:\DeskTop\file\Stitch_Thread\src\main.cpp(526,25): warning C4244: “=”: 从“int64”转换到“double”，可能丢失数据
+D:\DeskTop\file\Stitch_Thread\src\main.cpp(649,25): warning C4244: “=”: 从“int64”转换到“double”，可能丢失数据
+  Stitch_frame.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+D:\DeskTop\file\Stitch_Thread\src\Stitch_frame.cpp(86,7): error C3083: “filesystem”:“::”左侧的符号必须是一种类型
+D:\DeskTop\file\Stitch_Thread\src\Stitch_frame.cpp(86,19): error C2039: "create_directories": 不是 "std" 的成员
+D:\VisualStudio\2022\Community\VC\Tools\MSVC\14.29.30133\include\fstream(26): message : 参见“std”的声明
+D:\DeskTop\file\Stitch_Thread\src\Stitch_frame.cpp(86,37): error C3861: “create_directories”: 找不到标识符
+  正在生成代码...

@@ -1,0 +1,3 @@
+D:\DeskTop\file\Stitch_Thread\x64\Release\Stitch_Thread.exe
+D:\DeskTop\file\Stitch_Thread\src\x64\Release\Stitch_Thread.exe
+D:\DeskTop\file\Stitch_Thread\src\Project\x64\Release\Stitch_Thread.exe
